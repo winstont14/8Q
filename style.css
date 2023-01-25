@@ -1,0 +1,61 @@
+html{
+    height: 100%;
+}
+body{
+    font-size: 40px;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    min-height: 100%;
+    flex-direction:column;
+    height: 100%;
+}
+head{
+    flex: 0 0 auto;
+}
+h1 {
+    font-family: 'Kanit', sans-serif;
+    flex: 1 0 auto;
+    
+    } 
+h2 {
+
+        font-family: 'Kanit', sans-serif;
+        flex: 1 0 auto;
+        
+    }
+h3{
+    font-family: 'Kanit', sans-serif;
+    flex: 1 0 auto;
+    padding: 2px;
+
+} 
+    
+
+p{
+    
+    color: rgb(2, 2, 2);
+    font-family: 'Kanit', sans-serif;
+    font-size: 22px;
+    margin: auto;
+    width: 100%;
+    border: 1px solid #ffffff;
+    padding: 2px;
+    flex: 1 0 auto;
+}
+#button_id
+{
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    flex: 1 0 auto;
+}
+footer{
+    margin-top: auto;
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    padding: 2rem;
+    text-align: center;
+    flex: 0 0 auto;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
